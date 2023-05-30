@@ -1,8 +1,8 @@
 array = ["Red", "Green", "Blue", "White"]        
 value = gets.chomp                               
 ans = false
-array.each do |ele|                             
-    if(ele==value)
+array.each do |element|                             
+    if(element==value)
         ans=true
     end    
 end
